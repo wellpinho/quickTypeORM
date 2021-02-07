@@ -10,10 +10,13 @@
 2. Inicie o projeto onde: 
 - MyProject é nome do seu projeto
 - --database é o banco de dados utilizado
-``` typeorm init --name MyProject --database mysql ```
+``` 
+  typeorm init --name MyProject --database mysql 
+```
 
 ## Estrutura das pastas depois do projeto criado:
-``` MyProject
+``` 
+MyProject
 ├── src              // place of your TypeScript code
 │   ├── entity       // place where your entities (database models) are stored
 │   │   └── User.ts  // sample entity
@@ -56,4 +59,7 @@
 ```
 
 6. Iniciando o projeto: 
-``` npm start ```
+``` 
+  npm start 
+```
+
