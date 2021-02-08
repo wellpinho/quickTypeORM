@@ -63,3 +63,8 @@ MyProject
   npm start 
 ```
 
+## Trabalhando com Entities
+1. Criando Entity pelo terminal:
+```
+npx typeorm entity:create -n entityName
+```
