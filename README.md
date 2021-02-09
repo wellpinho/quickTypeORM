@@ -136,5 +136,8 @@ DATABASE_URL = urllocal
 
 12. Configurar os caminhos das entidades, e migrations
 
+## Acessando banco remotamente do heroku e executando as migrations via terminal
+1. ``` heroku pg:psql ```
+
 
 
