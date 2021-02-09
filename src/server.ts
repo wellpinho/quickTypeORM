@@ -1,7 +1,8 @@
-import app from './app';
-import 'reflect-metadata';
-import './database';
+import dotenv from 'dotenv'
+import 'reflect-metadata'
+import app from './app'
+import './database'
 
-app.listen(3000, () => {
-  console.log('🏃 Running Server');
-});
+dotenv.config()
+
+app.listen(4000)
